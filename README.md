@@ -1,4 +1,7 @@
-# Stay Informed
+# Anime Fun Facts
+
+**Anime Fun Facts** is a personnal project for my fellow cave crawlers who struggle to know the latest news in any topics.
+Stay informed does not include any flag and basically work like a search engine but for news.
 
 ---
 
@@ -14,8 +17,6 @@
 
 # What does it do ?
 
-**Stay Informed** is a personnal project for my fellow cave crawlers who struggle to know the latest news in any topics.
-Stay informed does not include any flag and basically work like a search engine but for news.
 
 # How to use it ?
 
@@ -24,7 +25,8 @@ Stay informed does not include any flag and basically work like a search engine 
 1. [python3](https://www.python.org/downloads)
 2. [the rich library](https://pypi.org/project/rich-cli)
 3. [the requests library](https://pypi.org/project/requests)
-4. An internet connection 
+4. [the ascii magic library](https://pypi.org/project/ascii-magic)
+5. An internet connection 
 
 - On Windows
 
