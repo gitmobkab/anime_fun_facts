@@ -21,9 +21,9 @@ Stay informed does not include any flag and basically work like a search engine 
 
 - Requirements
  
-1. (python3)[]
-2. (the rich library)[]
-3. (the requests library)[]
+1. [python3](https://www.python.org/downloads)
+2. [the rich library](https://pypi.org/project/rich-cli)
+3. [the requests library](https://pypi.org/project/requests)
 4. An internet connection 
 
 - On Windows
