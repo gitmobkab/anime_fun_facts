@@ -1,5 +1,6 @@
 import requests
 from rich.console import Console
+from rich.prompt import Prompt
 from ascii_magic import AsciiArt
 
 def get_random_anime():
@@ -26,5 +27,11 @@ def make_ascii_art(url:str):
 
 if __name__ == "__main__":
     console = Console()
-    console.rule("[bold red] Anime Fun Facts")
+    console.rule("[bold red] Random Anime")
+    console.print("Welcome to Random Anime\nType 'q' to quit or 'y' for a random anime !",justify="center")
+    while True:
+        command = Prompt.ask("Show random anime ?:\n>",case_sensitive=False, choices=["y","n"], default="y")
+        if command == "y"
+        
+        else:
     
