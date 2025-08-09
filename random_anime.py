@@ -8,12 +8,13 @@ def get_random_anime():
         request = requests.get("https://api.jikan.moe/v4/random/anime")
         request_json = request.json()
         data = request_json["data"]
-        if request.status_code == 200:
+        if request.status_code != 200:
+            return
+        else:
             images = data["images"]
             webps = images["webp"]
             return data["title"],data["score"],data["scored_by"],data["rank"],data["popularity"],webps["large_image_url"]
-        else:
-            return -1
+             
     
     
     
