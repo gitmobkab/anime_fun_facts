@@ -21,7 +21,7 @@ def draw_ascii_image(url:str):
         ascii_art = AsciiArt.from_url(url)
         return ascii_art.to_ascii()
     except Exception as error:
-        print(f"Couldn't load image, error name: {error.__str__}")
+        print(f"Couldn't convert image to ascii, error: {error}")
     
 
 if __name__ == "__main__":
