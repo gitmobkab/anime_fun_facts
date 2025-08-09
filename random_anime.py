@@ -16,7 +16,7 @@ def get_random_anime():
     
     
     
-def draw_ascii_image(url:str):
+def make_ascii_art(url:str):
     try:
         ascii_art = AsciiArt.from_url(url)
         return ascii_art.to_ascii()
